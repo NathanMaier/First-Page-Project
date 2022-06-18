@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        * {
+            padding: 0;
+            margin: 0;
+            font-style: italic;
+        }
+
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: 100;
+        }
+
+        header {
+            position: static;
+            width: 100%;
+            padding-bottom: 1%;
+            color: white;
+            font-style: italic;
+            letter-spacing: 0.1px;
+        }
+
+        .title {
+            background-color: rgb(214, 161, 170);
+            font-size: 13px;
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        .menu {
+            cursor: pointer;
+        }
+
+        .data {
+            width: 33.3%;
+            margin: auto;
+            font-size: 25px;
+            float: right;
+
+
+        }
+
+        .data td {
+            font-weight: bold;
+            text-align: justify;
+            text-align: center;
+            border: 1px solid palevioletred;
+            background-color: rgb(214, 161, 170);
+            ;
+            padding: 5px;
+            color: rgb(255, 248, 254);
+        }
+
+        .return {
+            position: absolute;
+            top: 50px;
+            width: 62px;
+            padding-top: 5px;
+            padding-left: 15px;
+        }
+
+        #return {
+            display: block;
+            margin-top: 45px;
+            text-decoration: none;
+            color: black;
+            padding-left: 5px;
+
+        }
+
+        .social {
+            padding-top: 15px;
+        }
+
+        li {
+            padding-top: 15px;
+            font-size: 20px;
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        .instalink {
+            list-style-image: url(../../images/instagram.png);
+            list-style-position: inside;
+            text-decoration: none;
+            color: black;
+
+        }
+
+        .whatslink {
+            list-style-image: url(../../images/whatsapp.png);
+            list-style-position: inside;
+            text-decoration: none;
+            color: black;
+        }
+
+        .stickycontact {
+            position: relative;
+            margin-bottom: 0;
+        }
+
+        .contact {
+            text-align: justify;
+            text-align: center;
+            position: fixed;
+            left: 80%;
+            bottom: 65px;
+            width: 250px;
+            height: 100px;
+            padding-top: 30px;
+            color: black;
+            font-style: italic;
+            font-weight: bold;
+            font-size: 20px;
+            border: 3px solid palevioletred;
+            background-color: rgba(235, 166, 189, 0.351);
+        }
+
+        #contact {
+            padding-bottom: 20px;
+            border: none;
+            color: blueviolet;
+        }
+
+        .content {
+            text-align: center;
+            margin: 15px;
+        }
+
+        .content h2 {
+            padding: 1px
+        }
+
+        .content li {
+            font-size: 30px;
+            padding: 90px;
+        }
+
+        .instalink {
+            list-style-image: url(../../images/instagram.png);
+            list-style-position: inside;
+            text-decoration: none;
+            color: black;
+
+        }
+
+        .whatslink {
+            list-style-image: url(../../images/whatsapp.png);
+            list-style-position: inside;
+            text-decoration: none;
+            color: black;
+        }
+
+        .location {
+            font-size: 25px;
+            font-weight: bold;
+            font-style: italic;
+            margin-top: 30px;
+            margin-bottom: 58px;
+        }
+
+        .credits {
+            text-decoration: none;
+            color: white;
+        }
+
+        .credits:visited {
+            text-decoration: none;
+            color: white;
+        }
+
+        footer {
+            background-color: rgb(214, 161, 170);
+            padding: 20px;
+            margin-top: 15px;
+            color: white;
+            font-size: 21px;
+            font-weight: 400;
+            text-align: center;
+
+        }
+        @media screen and (max-width:700px) {
+            .contact {
+                display: none;
+            }
+            #insta{
+                font-size: 25px;
+                text-align: center;
+            }
+        }
+        @media only screen and (max-width: 650px) {
+            .return {
+                position: static;
+                display: block;
+                margin: auto;
+                padding: 0;
+            }
+
+            .menu {
+                text-align: center;
+            }
+
+            .content li {
+                font-size: 25px;
+                padding: 50px;
+            }
+        }
+        
+    </style>
+    <title>M.E Nails Designer</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="title">
+                <h1>M.E Nails Designer</h1>
+            </div>
+            <div class="menu">
+                <table class="data">
+
+
+                    <td class="data2" onclick="location.href='../contato/'">Contato</td>
+
+
+                    <td class="data3" onclick="location.href='../sobre/'">Sobre</td>
+
+                </table>
+                <br>
+                <a id="return" href="../../index.html"><img class="return" src="../../../images/home (2).png"> Pagina
+                    Principal</a>
+            </div>
+        </header>
+        <div class="stickycontact">
+            <p class="contact" id="contact">Entre em Contato</p>
+            <ul class="contact">
+                <a class="instalink" href="https://www.instagram.com/m.e_manicure.pedicure/">
+                    <li>/m.e_manicure.pedicure</li>
+                </a>
+                <a class="whatslink"
+                    href="">
+                    <li>/whatsapp</li>
+                </a>
+            </ul>
+
+        </div>
+        <div class="content">
+
+            <h2>Entre em Contato e</h2>
+            <h2>marque seu horario.</h2>
+
+            <div class="social">
+                <ul>
+                    <a class="instalink" href="https://www.instagram.com/m.e_manicure.pedicure/">
+                        <li id="insta">/m.e_manicure.pedicure</li>
+                    </a>
+                    <a class="whatslink"
+                        href="">
+                        <li>/whatsapp</li>
+                    </a>
+                </ul>
+                <p class="location">Toledo-PR</p>
+            </div>
+        </div>
+        <footer>
+            <a class="credits" href="./pages/credits/">
+                <p>Creditos.</p>
+            </a>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>

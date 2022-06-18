@@ -1,0 +1,189 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+}
+
+header {
+    position: static;
+    width: 100%;
+    padding-bottom: 1%;
+    color: white;
+    font-style: italic;
+    letter-spacing: 0.1px;
+}
+
+.title {
+    background-color: rgb(214, 161, 170);
+    font-size: 13px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu {
+    cursor: pointer;
+}
+
+.data {
+    width: 33.3%;
+    margin: auto;
+    font-size: 25px;
+    float: right;
+
+}
+
+.data td {
+    font-weight: bold;
+    text-align: justify;
+    text-align: center;
+    border: 1px solid palevioletred;
+    background-color: rgb(214, 161, 170);
+    ;
+    padding: 5px;
+    color: rgb(255, 248, 254);
+}
+
+.content {
+    text-align: center;
+}
+
+.subtitle {
+    padding-top: 30px;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.workshow {
+    padding-top: 15px;
+    font-style: italic;
+    color: palevioletred;
+
+}
+
+.products {
+    list-style: none;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.natural {
+    border: 4px solid palevioletred;
+    margin-top: 10px;
+    width: 360px;
+    margin-right: 4px;
+}
+
+.semifooter {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.social {
+    padding-top: 15px;
+}
+
+li {
+    padding-top: 15px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.instalink {
+    list-style-image: url(../images/instagram.png);
+    list-style-position: inside;
+    text-decoration: none;
+    color: black;
+
+}
+
+.whatslink {
+    list-style-image: url(../images/whatsapp.png);
+    list-style-position: inside;
+    text-decoration: none;
+    color: black;
+}
+
+.location {
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 30px;
+}
+
+
+.stickycontact {
+    position: relative;
+    margin-bottom: 0;
+}
+
+.contact {
+    text-align: justify;
+    text-align: center;
+    position: fixed;
+    left: 80%;
+    bottom: 65px;
+    width: 250px;
+    height: 100px;
+    padding-top: 30px;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    border: 3px solid palevioletred;
+    background-color: rgba(235, 166, 189, 0.351);
+}
+
+#contact {
+    padding-bottom: 20px;
+    border: none;
+    color: blueviolet;
+}
+
+.showcase {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.house {
+    list-style-image: url(../images/home.png);
+    list-style-position: inside;
+}
+
+.pushpin {
+    list-style-image: url(../images/pushpin.png);
+    list-style-position: inside;
+}
+
+.credits {
+    text-decoration: none;
+    color: white;
+}
+
+.credits:visited {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    background-color: rgb(214, 161, 170);
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 21px;
+    font-style: italic;
+    font-weight: 400;
+
+}
+
+@media screen and (max-width:700px) {
+    .contact {
+        display: none;
+    }
+
+}
